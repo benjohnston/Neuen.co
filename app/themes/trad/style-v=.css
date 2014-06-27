@@ -1,0 +1,721 @@
+/*
+Theme Name: Trad
+Description: Child theme for trad
+Author: Ben Johnston
+Template: Velo
+*/
+
+@import url("../Velo/style.css");
+
+}
+body {
+	font-size: 1em;
+	line-height: 1.45em;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 3.5em;
+	line-height: 1em;
+	margin-bottom: .4em;
+	font-weight: 400
+}
+
+	h1 em {
+		font-family: "Georgia", serif;
+		font-weight: normal;
+		font-size: 70%;
+		position: relative;
+		top: -.1em;
+	}
+
+h2 {
+	font-size: 2.25em;
+	line-height: 1.33em;
+	margin-bottom: .66em;
+}
+
+h3 {
+	font-size: 1.5em;
+	line-height: 1.75em;
+	margin-bottom: .7em;
+}
+
+h4 {
+	font-size: 1.31em;
+	line-height: 1.14em;
+	margin-bottom: 1.14em;
+}
+
+h5 {
+	font-size: 1.125em;
+	line-height: 1.33em;
+	margin-bottom: 1.33em;
+}
+
+h6 {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+	h1:first-child,
+	h2:first-child,
+	h3:first-child {
+		margin-top: 0;
+	}
+
+p {
+	font-family: "Open Sans", Helvetica, Arial;
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+.portfolio .cats {
+	display: none;
+	}
+
+body,
+.no-touch .velo-anchor li:hover a,
+.velo-anchor .velo-top-anchor a,
+.velo-anchor [class*="current-"] a {
+	color: #ffffff;
+}
+
+.velo-anchor,
+img[class*="wp-image-"],
+.gallery-icon img,
+.skill > span,
+.portfolio-list li,
+.portfolio-list .lightbox:before,
+form input[type="text"],
+form input[type="password"],
+form textarea,
+.velo-mail-form,
+#respond,
+.featured img,
+.featured.lightbox:before,
+p.attachment img[class*="attachment"],
+#tooltip {
+	background-color: #ffffff;
+}
+
+hr,
+ul,
+.portfolio .cats li h2,
+.site-footer > div,
+.site-footer ul li,
+.section a,
+.sections a,
+fieldset {
+	border-color: rgba( 255, 255, 255, 0.3 );
+}
+
+.hentry-title.emphasized {
+	border-color: rgba( 255, 255, 255, 0.5 );
+}
+
+.section a:hover,
+.sections a:hover {
+	border-color: rgba( 255, 255, 255, 0.7 );
+}
+
+.portfolio .cats .active h2,
+a[href*="#velo-mail-form"],
+.action a:hover,
+.portfolio-item .item-info,
+.commentlist {
+	border-color: #ffffff;
+}
+
+#wp-calendar tr:nth-child(even),
+#wp-calendar td:nth-child(even) {
+	background-color: rgba( 255, 255, 255, 0.1 );
+}
+
+.viewer {
+	background-color: rgba( 255, 255, 255, 0.98 );
+}
+
+.no-touch .portfolio .cats li:hover h2 {
+	border-color: rgba( 255, 255, 255, 0.6 );
+}
+
+#tooltip.n:before,
+#tooltip.ne:before,
+#tooltip.nw:before {
+	border-top-color: #ffffff;
+}
+
+#tooltip.e:before {
+	border-right-color: #ffffff;
+}
+
+#tooltip.s:before,
+#tooltip.se:before,
+#tooltip.sw:before {
+	border-bottom-color: #ffffff;
+}
+
+#tooltip.w:before {
+	border-left-color: #ffffff;
+}
+
+.ie8 hr,
+.ie8 ul,
+.ie8 .section a,
+.ie8 .sections a,
+.ie8 .portfolio .cats li h2,
+.ie8 .site-footer > div,
+.ie8 .site-footer ul li,
+.ie8 .action a {
+	border-color: #ffffff;
+}
+
+.ie8 .viewer {
+	background-color: #ffffff;
+}
+
+.velo-anchor #logo,
+.velo-anchor li a,
+.velo-anchor a[href="#menu"],
+.portfolio-list li h3,
+form input[type="text"],
+form input[type="password"],
+form textarea,
+.velo-mail-form {
+	color: #505050;
+}
+
+.skill {
+	background-color: rgba( 80, 80, 80, 0.2 );
+}
+
+.skill span span {
+	background-color: rgba( 80, 80, 80, 0.4 );
+}
+
+.skill span span:before {
+	border-top-color: rgba( 80, 80, 80, 0.4 );
+}
+
+form input[type="submit"],
+form button {
+	background-color: rgba( 80, 80, 80, 0.1 );
+}
+
+.velo-mail-form,
+.velo-mail-form .controls input[type="submit"],
+#respond,
+#tooltip,
+.viewer .caption,
+.viewer .close {
+	color: #505050;
+}
+
+.velo-mail-form input[disabled="disabled"] {
+	border-color: rgba( 80, 80, 80, 0.2 );
+}
+
+.no-js #respond input[type="text"],
+.no-js #respond textarea {
+	border-color: rgba( 80, 80, 80, 0.1 );
+}
+
+.featured.video {
+	background-color: rgba( 80, 80, 80, 0.4 );
+}
+
+.ie8 .skill span span,
+.ie8 .featured.video {
+	background-color: #505050;
+}
+
+#respond .form-submit #submit,
+.ie8 .velo-mail-form input[disabled="disabled"],
+.ie8.no-js #respond input[type="text"],
+.ie8.no-js #respond textarea {
+	border-color: #505050;
+}
+
+.ie8 .skill span span:before {
+	border-top-color: #505050;
+}
+
+
+.featured img {
+	padding: .5em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+img[class*="wp-image-"],
+.gallery-icon img {
+	padding: .5em;
+}
+
+
+@media ( max-width: 795px ) {
+
+	.in .velo-anchor #menu {
+		background-color: #ffffff;
+	}
+
+	.in .velo-anchor #menu:before {
+		border-bottom-color: #ffffff;
+	}
+
+	.sidebar {
+		border-color: #ffffff;
+	}
+
+	.no-touch .velo-anchor li:hover a,
+	.velo-anchor .velo-top-anchor a,
+	.velo-anchor [class*="current-"] a {
+		color: #ffffff;
+	}
+
+}
+
+@media ( max-width: 550px ) {
+
+	.in .velo-anchor #menu:before {
+		border-bottom-color: #ffffff;
+	}
+
+}
+
+body,
+.no-touch .velo-anchor li:hover a,
+.velo-anchor .velo-top-anchor a,
+.velo-anchor [class*="current-"] a {
+	color: #ffffff;
+}
+
+.velo-anchor,
+img[class*="wp-image-"],
+.gallery-icon img,
+.skill > span,
+.portfolio-list li,
+.portfolio-list .lightbox:before,
+form input[type="text"],
+form input[type="password"],
+form textarea,
+.velo-mail-form,
+#respond,
+.featured img,
+.featured.lightbox:before,
+p.attachment img[class*="attachment"],
+#tooltip {
+	background-color: #ffffff;
+}
+
+hr,
+ul,
+.portfolio .cats li h2,
+.site-footer > div,
+.site-footer ul li,
+.section a,
+.sections a,
+fieldset {
+	border-color: rgba( 255, 255, 255, 0.3 );
+}
+
+.hentry-title.emphasized {
+	border-color: rgba( 255, 255, 255, 0.5 );
+}
+
+.section a:hover,
+.sections a:hover {
+	border-color: rgba( 255, 255, 255, 0.7 );
+}
+
+.portfolio .cats .active h2,
+a[href*="#velo-mail-form"],
+.action a:hover,
+.portfolio-item .item-info,
+.commentlist {
+	border-color: #ffffff;
+}
+
+#wp-calendar tr:nth-child(even),
+#wp-calendar td:nth-child(even) {
+	background-color: rgba( 255, 255, 255, 0.1 );
+}
+
+.viewer {
+	background-color: rgba( 255, 255, 255, 0.98 );
+}
+
+.no-touch .portfolio .cats li:hover h2 {
+	border-color: rgba( 255, 255, 255, 0.6 );
+}
+
+#tooltip.n:before,
+#tooltip.ne:before,
+#tooltip.nw:before {
+	border-top-color: #ffffff;
+}
+
+#tooltip.e:before {
+	border-right-color: #ffffff;
+}
+
+#tooltip.s:before,
+#tooltip.se:before,
+#tooltip.sw:before {
+	border-bottom-color: #ffffff;
+}
+
+#tooltip.w:before {
+	border-left-color: #ffffff;
+}
+
+.ie8 hr,
+.ie8 ul,
+.ie8 .section a,
+.ie8 .sections a,
+.ie8 .portfolio .cats li h2,
+.ie8 .site-footer > div,
+.ie8 .site-footer ul li,
+.ie8 .action a {
+	border-color: #ffffff;
+}
+
+.ie8 .viewer {
+	background-color: #ffffff;
+}
+
+.velo-anchor #logo,
+.velo-anchor li a,
+.velo-anchor a[href="#menu"],
+.portfolio-list li h3,
+form input[type="text"],
+form input[type="password"],
+form textarea,
+.velo-mail-form {
+	color: #505050;
+}
+
+.skill {
+	background-color: rgba( 80, 80, 80, 0.2 );
+}
+
+.skill span span {
+	background-color: rgba( 80, 80, 80, 0.4 );
+}
+
+.skill span span:before {
+	border-top-color: rgba( 80, 80, 80, 0.4 );
+}
+
+form input[type="submit"],
+form button {
+	background-color: rgba( 80, 80, 80, 0.1 );
+}
+
+.velo-mail-form,
+.velo-mail-form .controls input[type="submit"],
+#respond,
+#tooltip,
+.viewer .caption,
+.viewer .close {
+	color: #505050;
+}
+
+.velo-mail-form input[disabled="disabled"] {
+	border-color: rgba( 80, 80, 80, 0.2 );
+}
+
+.no-js #respond input[type="text"],
+.no-js #respond textarea {
+	border-color: rgba( 80, 80, 80, 0.1 );
+}
+
+.featured.video {
+	background-color: rgba( 80, 80, 80, 0.4 );
+}
+
+.ie8 .skill span span,
+.ie8 .featured.video {
+	background-color: #505050;
+}
+
+#respond .form-submit #submit,
+.ie8 .velo-mail-form input[disabled="disabled"],
+.ie8.no-js #respond input[type="text"],
+.ie8.no-js #respond textarea {
+	border-color: #505050;
+}
+
+.ie8 .skill span span:before {
+	border-top-color: #505050;
+}
+
+
+.featured img {
+	padding: .5em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+img[class*="wp-image-"],
+.gallery-icon img {
+	padding: .5em;
+}
+
+
+@media ( max-width: 795px ) {
+
+	.in .velo-anchor #menu {
+		background-color: #ffffff;
+	}
+
+	.in .velo-anchor #menu:before {
+		border-bottom-color: #ffffff;
+	}
+
+	.sidebar {
+		border-color: #ffffff;
+	}
+
+	.no-touch .velo-anchor li:hover a,
+	.velo-anchor .velo-top-anchor a,
+	.velo-anchor [class*="current-"] a {
+		color: #ffffff;
+	}
+
+}
+
+@media ( max-width: 550px ) {
+
+	.in .velo-anchor #menu:before {
+		border-bottom-color: #ffffff;
+	}
+
+}
+
+
+
+body,
+.no-touch .velo-anchor li:hover a,
+.velo-anchor .velo-top-anchor a,
+.velo-anchor [class*="current-"] a {
+	color: #ffffff;
+}
+
+.velo-anchor,
+img[class*="wp-image-"],
+.gallery-icon img,
+.skill > span,
+.portfolio-list li,
+.portfolio-list .lightbox:before,
+form input[type="text"],
+form input[type="password"],
+form textarea,
+.velo-mail-form,
+#respond,
+.featured img,
+.featured.lightbox:before,
+p.attachment img[class*="attachment"],
+#tooltip {
+	background-color: #ffffff;
+}
+
+hr,
+ul,
+.portfolio .cats li h2,
+.site-footer > div,
+.site-footer ul li,
+.section a,
+.sections a,
+fieldset {
+	border-color: rgba( 255, 255, 255, 0.3 );
+}
+
+.hentry-title.emphasized {
+	border-color: rgba( 255, 255, 255, 0.5 );
+}
+
+.section a:hover,
+.sections a:hover {
+	border-color: rgba( 255, 255, 255, 0.7 );
+}
+
+.portfolio .cats .active h2,
+a[href*="#velo-mail-form"],
+.action a:hover,
+.portfolio-item .item-info,
+.commentlist {
+	border-color: #ffffff;
+}
+
+#wp-calendar tr:nth-child(even),
+#wp-calendar td:nth-child(even) {
+	background-color: rgba( 255, 255, 255, 0.1 );
+}
+
+.viewer {
+	background-color: rgba( 255, 255, 255, 0.98 );
+}
+
+.no-touch .portfolio .cats li:hover h2 {
+	border-color: rgba( 255, 255, 255, 0.6 );
+}
+
+#tooltip.n:before,
+#tooltip.ne:before,
+#tooltip.nw:before {
+	border-top-color: #ffffff;
+}
+
+#tooltip.e:before {
+	border-right-color: #ffffff;
+}
+
+#tooltip.s:before,
+#tooltip.se:before,
+#tooltip.sw:before {
+	border-bottom-color: #ffffff;
+}
+
+#tooltip.w:before {
+	border-left-color: #ffffff;
+}
+
+.ie8 hr,
+.ie8 ul,
+.ie8 .section a,
+.ie8 .sections a,
+.ie8 .portfolio .cats li h2,
+.ie8 .site-footer > div,
+.ie8 .site-footer ul li,
+.ie8 .action a {
+	border-color: #ffffff;
+}
+
+.ie8 .viewer {
+	background-color: #ffffff;
+}
+
+.velo-anchor #logo,
+.velo-anchor li a,
+.velo-anchor a[href="#menu"],
+.portfolio-list li h3,
+form input[type="text"],
+form input[type="password"],
+form textarea,
+.velo-mail-form {
+	color: #505050;
+}
+
+.skill {
+	background-color: rgba( 80, 80, 80, 0.2 );
+}
+
+.skill span span {
+	background-color: rgba( 80, 80, 80, 0.4 );
+}
+
+.skill span span:before {
+	border-top-color: rgba( 80, 80, 80, 0.4 );
+}
+
+form input[type="submit"],
+form button {
+	background-color: rgba( 80, 80, 80, 0.1 );
+}
+
+.velo-mail-form,
+.velo-mail-form .controls input[type="submit"],
+#respond,
+#tooltip,
+.viewer .caption,
+.viewer .close {
+	color: #505050;
+}
+
+.velo-mail-form input[disabled="disabled"] {
+	border-color: rgba( 80, 80, 80, 0.2 );
+}
+
+.no-js #respond input[type="text"],
+.no-js #respond textarea {
+	border-color: rgba( 80, 80, 80, 0.1 );
+}
+
+.featured.video {
+	background-color: rgba( 80, 80, 80, 0.4 );
+}
+
+.ie8 .skill span span,
+.ie8 .featured.video {
+	background-color: #505050;
+}
+
+#respond .form-submit #submit,
+.ie8 .velo-mail-form input[disabled="disabled"],
+.ie8.no-js #respond input[type="text"],
+.ie8.no-js #respond textarea {
+	border-color: #505050;
+}
+
+.ie8 .skill span span:before {
+	border-top-color: #505050;
+}
+
+
+.featured img {
+	padding: .5em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+img[class*="wp-image-"],
+.gallery-icon img {
+	padding: .5em;
+}
+
+
+@media ( max-width: 795px ) {
+
+	.in .velo-anchor #menu {
+		background-color: #ffffff;
+	}
+
+	.in .velo-anchor #menu:before {
+		border-bottom-color: #ffffff;
+	}
+
+	.sidebar {
+		border-color: #ffffff;
+	}
+
+	.no-touch .velo-anchor li:hover a,
+	.velo-anchor .velo-top-anchor a,
+	.velo-anchor [class*="current-"] a {
+		color: #ffffff;
+	}
+
+}
+
+@media ( max-width: 550px ) {
+
+	.in .velo-anchor #menu:before {
+		border-bottom-color: #ffffff;
+	}
+
+}

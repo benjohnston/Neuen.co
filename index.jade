@@ -1,0 +1,57 @@
+doctype html
+html.no-js(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    script(type='text/javascript', src='//use.typekit.net/hjn0unn.js')
+    script(type='text/javascript').
+      try{Typekit.load();}catch(e){}
+    link(rel='stylesheet', href='css/reset.css')
+    // CSS reset
+    link(rel='stylesheet', href='css/style.css')
+    // Resource style
+    script(src='js/modernizr.js')
+    // Modernizr
+    title Full page intro and navigation
+  body
+    main#main-content
+      section#intro
+        h1
+          img(src='img/logo-yellow-06.svg')
+        .what-we-motherfucking-do
+          ul
+            //- li High quality websites
+            //- a(href='mailto:hello@neuen.com') Let's do this.
+        header.header
+          #logo
+            a(href='#0')
+              img(src='img/u.svg', alt='Logo')
+          a.menu-trigger(href='#main-nav')
+            | Menu
+            span
+        .blurred-bg
+      // intro
+    .shadow-layer
+    nav#main-nav
+      ul
+        //- li
+        //-   a(href='#0')
+        //-     span Tour
+        li
+          a(href='pricing')
+            span Pricing
+        li
+          a(href='portfolio')
+            span Selected Work
+        li
+          a(href='/about')
+            span Information
+        li
+          a(href='mailto:hello@neuen.co')
+            span Contact us
+      a.close-menu(href='#0')
+        | Close
+        span
+    script(src='js/jquery.min.js')
+    script(src='js/main.js')
+    // Resource jQuery
